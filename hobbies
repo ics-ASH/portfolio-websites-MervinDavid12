@@ -1,6 +1,32 @@
 <a href="About me"></a>
-<p style="text-align:center;font-size:250%; ">About me</p>
 <body style="background-color:rgb(127, 161, 255)">
-</p><h3>Soccer</h3>
-<p style="font-size:75%;">Ever since I was a kid I always had an interest for soccer. I started playing when I was 9 and got into my first team at the Saint-Laurent soccer club. Even though I only played for aorund 6 months before I  got cut, I had a great time spending time with my teamates and traveling for tournements. Even if I don't play for a team anymore, I still play around twice a week with friend at a parc.  
-</p>
+    <h2>About me :</h2>
+</p><h3>Movie Tier list </h3>
+
+<style>
+table, th, td {
+  border:1px solid black;}
+</style>
+<body>
+<table style="width:100%">
+  <tr>
+    <th>Infinity war</th>
+    <th>Interstellar</th>
+    <th>The Meg</th>
+  </tr>
+  <tr>
+    <td>9.1/10</td>
+    <td>8.3/10</td>
+    <td>9.7/10</td>
+  </tr>
+  <tr>
+    <td>In the Marvel movie, the Avengers team up to stop the powerfil villain Thanos. He wants to collect six magical stones to control the universe while the avengers and the guardians of the galaxies tries to save the world from his evil plans</td>
+    <td>In this science fictions film, a group of astronatus travel through a wormhole near Saturn to find a new home for humanity.The Earth is dying and they face many danger and challenges to find a save place  </td>
+    <td>Probably my favorite movie I have seen for far. It's about a prehistoric shark called the Megaladon  and it escapes a underwater layer of gases and a team of scientist try ti kill it before it harms the public</td>
+  </tr>
+</table>
+</p><h3>Codes </h3>
+<iframe width="410" height="460"
+   src="https://academy.cs.cmu.edu/sharing/beigeAnt5521/embed"> 
+ </iframe>
+
