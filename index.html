@@ -1,29 +1,39 @@
-<html>
-<title>Mervins Website</title>
-
-<p style="text-align:center;font-size:250%; ">My Website</p>
-<body style="background-color:rgb(183, 255, 255)"
-<br>
-
-<a href="Tech Tuesday.html" style="font-size: 25px;">Tech Tuesday</a>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<a href="hobbies.html" style="font-size: 25px;">About me</a>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<a href="journal.html" style="font-size: 22px;">Weekly Journal</a>
-
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 20px;
+        }
+        .nav-links a {
+            font-size: 22px;
+            text-decoration: none;
+            color: #000;
+            margin: 5px 0;
+        }
+        .nav-links a:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-links">
+        <a href="Tech Tuesday.html">Tech Tuesday</a>
+        <a href="hobbies.html">About me</a>
+        <a href="journal.html">Weekly Journal</a>
+    </div>
+</body>
 </html>
+
+
+
+
