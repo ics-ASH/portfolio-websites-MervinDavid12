@@ -1,58 +1,102 @@
-<html>
-<title>About Me</title>
-
-<body style="background-color:rgb(157, 241, 234)">
-  
-
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me</title>
 <style>
-* {
-box-sizing: border-box;}
-body {font-family: Arial, Helvetica, sans-serif;}
-header {
-  background-color: rgba(178, 255, 233, 0.2);
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;}
-footer {background-color: #c0feb9;
-  padding: 10px;
-  text-align: center;
-  color: white;}
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(157, 241, 234);
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: rgba(178, 255, 233, 0.8);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  footer {
+    background-color: #c0feb9;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  h2 {
+    font-size: 2em;
+    margin: 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  iframe {
+    width: 100%;
+    height: 460px;
+    border: none;
+  }
+  .movie-description {
+    font-size: 0.85em;
+  }
+  .content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
 </style>
 </head>
 <body>
 <header>
   <h2>About Me</h2>
 </header>
+
+<div class="content">
+  <h3>Favorite Movies and Descriptions</h3>
+  <table>
+    <tr>
+      <th>Infinity War</th>
+      <th>Interstellar</th>
+      <th>The Meg</th>
+    </tr>
+    <tr>
+      <td>9.1/10</td>
+      <td>8.3/10</td>
+      <td>9.7/10</td>
+    </tr>
+    <tr>
+      <td class="movie-description">In the Marvel movie, the Avengers team up to stop the powerful villain Thanos who aims to collect six magical stones to control the universe.</td>
+      <td class="movie-description">In this science fiction film, astronauts travel through a wormhole near Saturn to find a new home for humanity, facing numerous dangers.</td>
+      <td class="movie-description">A thrilling movie about a prehistoric shark called the Megalodon that escapes and scientists try to stop it before it harms the public.</td>
+    </tr>
+  </table>
+
+  <h3>Coding Example</h3>
+  <iframe src="https://academy.cs.cmu.edu/sharing/beigeAnt5521/embed" frameborder="0"></iframe>
+
+  <h2>Why Did I Choose to Study Coding?</h2>
+  <p class="movie-description">I chose to study computer science in grade 10 because I'm really interested in technology and how it can change things. Computers are everywhere now—they help us talk to each other, play games, run businesses, and even keep us healthy. Learning computer science helps me understand how computers work, how people make software, and how technology can solve problems in our everyday lives. It also teaches me important skills like problem-solving, logical thinking, and creativity, which are useful in school and in future jobs. I believe studying computer science will let me contribute new ideas and help people with technology in the future. Throughout this semester, I've been coding on platforms like CodeHS, VS Code, Khan Academy, and CMU.</p>
+</div>
+
 <footer>
+  <p>© 2024 About Me - All rights reserved</p>
 </footer>
+
 </body>
 </html>
-<style>
-table, th, td {
-  border:1px solid black;}
-</style>
-<body>
-<table style="width:100%">
-  <tr>
-    <th>Infinity war</th>
-    <th>Interstellar</th>
-    <th>The Meg</th>
-  </tr>
-  <tr>
-    <td>9.1/10</td>
-    <td>8.3/10</td>
-    <td>9.7/10</td>
-  </tr>
-  <tr>
-    <td>In the Marvel movie, the Avengers team up to stop the powerfil villain Thanos. He wants to collect six magical stones to control the universe while the avengers and the guardians of the galaxies tries to save the world from his evil plans</td>
-    <td>In this science fictions film, a group of astronatus travel through a wormhole near Saturn to find a new home for humanity.The Earth is dying and they face many danger and challenges to find a save place  </td>
-    <td>Probably my favorite movie I have seen for far. It's about a prehistoric shark called the Megaladon  and it escapes a underwater layer of gases and a team of scientist try ti kill it before it harms the public</td>
-  </tr>
-</table>
-</p><h3>Codes </h3>
-<iframe width="410" height="460"
-   src="https://academy.cs.cmu.edu/sharing/beigeAnt5521/embed"> 
- </iframe>
+
+
+
+
+
+
 
